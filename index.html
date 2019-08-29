@@ -3,8 +3,10 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media-queries.css">
   <title>Cahee</title>
 </head>
 
@@ -12,9 +14,20 @@
   <main class="main">
     <article class="fresh-life">
       <section class="fresh-life__container container">
+        <div id="burger" class="burger">
+          <div id="first-line" class="line">
 
-        <header class="header">
-          <img src="images/logo.png" alt="logo picture">
+          </div>
+          <div id="second-line" class="line">
+
+          </div>
+          <div id="third-line" class="line">
+
+          </div>
+
+        </div>
+        <header id="header" class="header">
+          <img class="logo" src="images/logo.png" alt="logo picture">
           <nav class="header__nav">
             <ul class="nav__nav-ul">
               <li class="nav-ul__nav-item"><a class="nav-item__link" href="#">Home</a></li>
@@ -26,6 +39,7 @@
             </ul>
           </nav>
         </header>
+
 
         <div class="fresh-life__text-container">
           <h2 class="text-container__tittle">Fresh Life</h2>
@@ -44,7 +58,6 @@
     <article id="about-us" class="about-us">
       <section class="about-us__container container">
         <div class="about-us__image">
-          <img class="" src="images/cup.png" alt=" cup image">
         </div>
         <div class="about-us__info">
           <h2 class="info__tittle">About Us</h2>
@@ -58,8 +71,8 @@
     </article>
 
     <article class="services">
-      <img class="services__image" src="images/tomatos.png" alt="tomatos picture">
       <section class="services__container container">
+        <img class="services__image" src="images/tomatos.png" alt="tomatos picture">
         <div class="services__list">
           <a href="#" class="services-list__item">
             <p class="item__tittle">Online Shopping</p>
@@ -101,15 +114,26 @@
           <p class=" article-description ">ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
 
-        <div class="gallery-container__photo-box">
-          <img class="photo-box__peach photo-box__item" src="images/peach.jpg" alt="peach picture">
-          <div class="berry-box">
-            <img class="photo-box__berry photo-box__item" src="images/blueberry.jpg" alt="blueberry picture">
-            <img class="photo-box__berry photo-box__item" src="images/berry.jpg" alt="berry picture">
+        <div class="gallery-container__first-part">
+          <div class="gallery-container-item large-item">
           </div>
-          <img class="photo-box__glass photo-box__item" src="images/glass.jpg" alt="glass picture">
-          <img class="photo-box__fruit photo-box__item" src="images/fruit.jpg" alt="fruit picture">
+          <div class="gallery-container-item medium-top">
+          </div>
+          <div class="gallery-container-item medium-bottom">
+          </div>
         </div>
+
+
+        <div class="gallery-container__second-part">
+          <div class="gallery-container-item left-photo">
+
+          </div>
+          <div class="gallery-container-item right-photo">
+
+          </div>
+        </div>
+
+
         <a class="gallery-container__button" href="#"> View More</a>
       </section>
     </article>
@@ -133,10 +157,8 @@
         <div class="header__container">
           <h2 class=" article-tittle blog-header__tittle">Blog</h2>
           <p class=" article-description blog-header__description">
-            Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
-          <p class=" article-description blog-header__description"> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure </p>
-          <p class=" article-description blog-header__description"> dolor in reprehenderit in voluptate velit.
-          </p>
+            Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+
         </div>
 
         <div class="blog__item-container">
@@ -200,13 +222,13 @@
   </main>
   <footer class="footer">
     <div class="footer__container container">
-      <p class="footer__copyright">© 2015 Company. All right reserved.</p>
-      <img src="images/logo-small.png" alt="footer logo">
-      <p class="footer__author">Made with <span class="footer__span">love</span> by Auskteez</p>
+      <p class="footer__copyright footer__text">© 2015 Company. All right reserved.</p>
+      <img class="footer-logo" src="images/logo-small.png" alt="footer logo">
+      <p class="footer__author footer__text">Made with <span class="footer__span">love</span> by Auskteez</p>
     </div>
 
   </footer>
-
+  <script src="js/script.js" charset="utf-8"></script>
 </body>
 
 </html>
