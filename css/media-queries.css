@@ -215,13 +215,13 @@
   }
 
   .email-input {
-    width: 60%;
+    width: 100%;
     height: 45px;
     font-size: 12px;
   }
 
   .form__button {
-    width: 35%;
+    width: 50%;
     height: 40px;
     font-size: 14px;
   }
